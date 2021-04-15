@@ -8,7 +8,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  return new Response(template, {
-    headers: { 'content-type': 'text/plain' },
+  return new Response(template(request.cf), {
+    headers: { 'content-type': 'text/html' },
   })
 }
