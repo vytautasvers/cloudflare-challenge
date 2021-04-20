@@ -1,8 +1,9 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Blog via Hugo"
 theme = "terminal"
 paginate = 5
+
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
